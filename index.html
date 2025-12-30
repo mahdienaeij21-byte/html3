@@ -4,8 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> فرم ثبت نام دانشجو</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>بسم تعالی</h1>
+    <h2>فرم ثبت نام دوره اموزشی فناوری نانو</h2>
+    <form action="#">
+        <ol>
+            <li>
+            <label>نام:</label>
+            <input type="text"><br><br>
+            </li>
+            <li>
+            <label>نام خانوادگی:</label>
+            <input type="text"><br><br>
+            <label for="photo">عکس:</label>
+            <input type="file" id="photo" name="photo">
+            </li>
+            
+            <li>
+                <label>جنسیت:</label>
+            </li>
+            <label for="زن">زن</label>
+            <input type="radio" id="زن">
+            <label>مرد</label>
+            <input type="radio" id="مرد">
+            <label>شماره شناسنامه:</label>
+            <input type="text" id="شماره شناسنامه">
+            
+            <li>
+            <label>محل صدور:</label>
+            <input type="text" id="محل صدور">
+            <label>نام پدر:</label>
+            <input type="text">
+            </li>
+            
+            <li>
+                <label>تاریخ تولد:</label>
+                <input type="date" id="تاریخ تولد">
+                <label>محل تولد:</label>
+                <select id="location">
+                    <option>محموداباد </option>
+                    <option> امل</option>
+                    <option>نور</option>
+                </select>
+            </li>
+            <li>
+                <label>وضعیت تحصیلی:</label>
+                <select id="وضعیت تحصیلی">
+                    <option>فارق التحصیل</option>
+                    <option>دیپلم</option>
+                    <option>کارشناسی</option>
+                    <option>کارشناسی ارشد</option>
+                </select>
+            </li>
+
+            <li>
+            <labeL>ادرس پست الکترونیک:</labeL>
+            <input type="email">
+            </li>
+            
+            <table border="1">
+                <tr>
+                    <th>مدرک</th>
+                    <th>رشته</th>
+                    <th>گرایش</th>
+                    <th>دانشگاه محل تحصیل</th>
+                    <th>معدل کل</th>
+                    <th>تاریخ اخذ</th>
+                </tr>
+                <tr>
+                    <td>کارشناسی</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>کارشناسی ارشد</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>دکتری</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+            </table>
+            <li>
+                <label>کارمند رسمی دولت:</label>
+                <label>می باشم</label>
+                <input type="radio">
+                <label> نمی باشم</label>
+                <input type="radio">
+            </li>
+            <li>
+                <label>شغل فعلی:</label>
+                <input type="text">
+            </li>
+            <li>
+                <label>تلفن:</label>
+                <input type="tel">
+            </li>
+
+            <p>
+                مدارک لازم:
+                فتوکپی شناسنامه و دو قطعه عکس
+        
+            </p>
+
+
+        </ol>
+    </form>
 </body>
 </html>

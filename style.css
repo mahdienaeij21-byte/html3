@@ -1,0 +1,159 @@
+
+}
+body {
+    font-family: Tahoma, Arial;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h3, .header h4 {
+    margin: 10px 0;
+}
+
+.main-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    flex: 1;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-row label {
+    width: 200px;
+    font-weight: bold;
+}
+
+.form-row input[type="text"],
+.form-row input[type="tel"],
+.form-row input[type="email"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #333;
+}
+
+.half-input {
+    width: 150px !important;
+    flex: none !important;
+}
+
+.short-input {
+    width: 100px !important;
+    flex: none !important;
+}
+
+.medium-input {
+    width: 150px !important;
+    flex: none !important;
+}
+
+.inline-label {
+    width: auto !important;
+    margin-right: 20px;
+}
+
+.short-label {
+    width: auto !important;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 30px;
+}
+
+.photo-section {
+    text-align: center;
+}
+
+.photo-box {
+    width: 120px;
+    height: 150px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 12px;
+}
+
+.file-input {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+table td input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.agreement-text {
+    margin-top: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.signature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.signature-box {
+    text-align: center;
+}
+
+.signature-box p {
+    margin: 5px 0;
+}
+
+.conditions-box {
+    margin-top: 30px;
+    border: 1px solid #333;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.conditions-box p {
+    line-height: 1.8;
+    margin: 10px 0;
+}
